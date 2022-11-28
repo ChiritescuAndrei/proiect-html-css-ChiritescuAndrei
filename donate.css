@@ -1,0 +1,71 @@
+.wrapper {
+   align-items: right;
+   background-color: rgb(255, 255, 255);
+   width: 500px;
+   padding: 25px;
+   margin: 100px 50px 100px;
+}
+body {
+   min-height: 100%;
+   flex-direction: column;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(images/donate-background.png);
+   background-size: cover;
+   background-position: center;
+}
+.wrapper h2 {
+   background-color: #fcfcfc;
+   color: #7ed321;
+   font-size: 24px;
+   padding: 10px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+h4 {
+   padding-bottom: 5px;
+   color: #7ed321;
+}
+
+.input-group {
+   margin-bottom: 8px;
+   width: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   padding: 5px 0;
+}
+
+.input-box {
+   width: 100%;
+   margin-right: 12px;
+   position: relative;
+}
+
+.name {
+   padding: 14px 10px 14px 10px;
+   width: 100%;
+   background-color: #fcfcfc;
+   border: 1px solid #00000033;
+   outline: none;
+   letter-spacing: 1px;
+   transition: 0.3s;
+   border-radius: 3px;
+   color: #333;
+}
+.content {
+   text-align: center;
+   color: #fff;
+}
+.content h1 {
+   font-size: 70px;
+   margin-top: 80px;
+}
+.content p {
+   margin: 20px auto;
+   font-weight: 100;
+   line-height: 25px;
+}
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
